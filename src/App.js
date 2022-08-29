@@ -39,6 +39,12 @@ function App() {
           </div>
         </div>
       </div>
+      <Pagination
+        info={info}
+        pageNumber={pageNumber}
+        updatePageNumber={updatePageNumber}
+      />
+
     </div>
   );
 }
