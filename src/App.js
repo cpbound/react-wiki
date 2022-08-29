@@ -1,4 +1,7 @@
-import logo from './logo.svg';
+import "bootstrap/dist/css/bootstrap.min.css";
+import "bootstrap/dist/js/bootstrap";
+import React, { useState, useEffect } from "react";
+
 import './App.css';
 
 function App() {
